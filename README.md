@@ -1,20 +1,54 @@
-Flight Fare Prediction: A Machine Learning Project
+I apologize for the oversight. Let's adjust the hackathon tasks to better suit the Flight Fare Prediction dataset.
 
-In the era where air travel is an integral part of modern lifestyles, predicting flight ticket prices has become crucial for informed trip planning. 
-This project aims to develop a machine learning model that predicts flight fares based on various factors such as timing, destination, and duration of flights. 
-The fluctuating nature of ticket prices, influenced by factors like vacations and festive seasons, makes it essential to have a tool that provides a basic idea of potential fares.
+# Flight Fare Prediction
 
-Key Tasks:
+## Problem Description
 
-- Data Exploration: Dive into the provided dataset to understand the characteristics and distribution of the data.
-- Data Cleaning: Cleanse the dataset by handling missing values, outliers, and other inconsistencies.
-- Feature Engineering: Extract relevant features and create new ones to enhance the predictive capabilities of the model.
-- Model Building: Explore and implement different machine learning algorithms to find the best fit for predicting flight fares.
-- Model Testing: Evaluate the performance of the developed models using appropriate metrics to ensure accuracy and reliability.
+The challenge involves predicting flight fares based on various features, aiming to create an accurate and reliable model for estimating airfare. This dataset is provided as part of the end-term exam in Methods and Algorithms in Machine Learning -1.
 
-By undertaking these classical machine learning tasks, this project aims to empower users with a tool that can assist in making informed decisions about flight fares, ultimately saving both money and time for travelers.
+## Table of Contents
+1. **Problem Description**
+2. **Dataset Description**
+3. **Hackathon Tasks**
+    - Data Preprocessing
+    - Feature Engineering
+    - ML Modelling
+    - Evaluation and Fine-Tuning
+4. **Evaluation Metric**
 
+## Dataset Description
 
+Target Attribute: "ticketprice" (continuous variable)
 
+**CSV Files:**
+- **train_data.csv:** Flight data with features and corresponding ticket prices.
+- **test_data.csv:** Test data with features for prediction (excluding the target column).
+- **Solution.csv:** Model output for test data evaluation.
 
+*Note: The dataset may contain features such as departure time, airline, route, etc., influencing flight ticket prices.*
 
+## Hackathon Tasks
+
+### Data Preprocessing
+
+Clean and preprocess the dataset, handling missing values and outliers. Ensure the data is ready for feature engineering and model training.
+
+### Feature Engineering
+
+Explore and create new features from existing ones. Consider transforming variables or combining features to improve the model's predictive performance.
+
+### ML Modelling
+
+Develop a robust flight fare prediction model using machine learning algorithms. Experiment with different models and evaluate their performance.
+
+### Evaluation and Fine-Tuning
+
+Assess the model's performance using appropriate evaluation metrics. Fine-tune hyperparameters and optimize the model for better accuracy.
+
+## Evaluation Metric
+
+The evaluation metric for this hackathon is the accuracy of ticket price predictions.
+
+---
+### Disclaimer:
+*Please be mindful that this dataset is specifically created for educational purposes as part of the end-term exam. While it aims to represent flight data realistically, it may contain simulated or artificially introduced data for academic assessment.*
