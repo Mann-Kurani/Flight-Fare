@@ -1,5 +1,3 @@
-I apologize for the oversight. Let's adjust the hackathon tasks to better suit the Flight Fare Prediction dataset.
-
 # Flight Fare Prediction
 
 ## Problem Description
